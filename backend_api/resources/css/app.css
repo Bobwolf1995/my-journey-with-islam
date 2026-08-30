@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+    --rihlati-primary: #0f5b52;
+    --rihlati-primary-dark: #093f39;
+    --rihlati-accent: #c59b4a;
+    --rihlati-bg: #f8f5ef;
+    --rihlati-text: #123c36;
+}
+
+html {
+    direction: rtl;
+}
+
+body {
+    margin: 0;
+    font-family: Tahoma, Arial, sans-serif;
+    background: var(--rihlati-bg);
+    color: var(--rihlati-text);
+}
